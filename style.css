@@ -1,0 +1,27 @@
+#users {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.user {
+    max-width: 150px;
+    background-color: beige;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.user__image {
+    width: 100%;
+}
+
+.user__first-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#obtener-usuarios {
+    margin-bottom: 3em;
+}
